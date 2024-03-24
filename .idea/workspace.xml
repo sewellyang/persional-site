@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="71037281-a683-4a9c-83f6-6415ff07bf79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site-auth-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site-common/site-common-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site-data/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site-data/site-server-data/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site-gateway/site-spring-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site-web/site-user-web/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/9.0.65/tomcat-embed-core-9.0.65-sources.jar!/org/apache/catalina/core/StandardEngineValve.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/9.0.65/tomcat-embed-core-9.0.65-sources.jar!/org/apache/catalina/core/StandardHostValve.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/boot/spring-boot-autoconfigure/2.7.4/spring-boot-autoconfigure-2.7.4-sources.jar!/org/springframework/boot/autoconfigure/security/servlet/SpringBootWebSecurityConfiguration.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-config/5.7.3/spring-security-config-5.7.3-sources.jar!/org/springframework/security/config/annotation/AbstractConfiguredSecurityBuilder.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-config/5.7.3/spring-security-config-5.7.3-sources.jar!/org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-config/5.7.3/spring-security-config-5.7.3-sources.jar!/org/springframework/security/config/annotation/web/builders/FilterOrderRegistration.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-config/5.7.3/spring-security-config-5.7.3-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-config/5.7.3/spring-security-config-5.7.3-sources.jar!/org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-config/5.7.3/spring-security-config-5.7.3-sources.jar!/org/springframework/security/config/annotation/web/configurers/AbstractAuthenticationFilterConfigurer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-config/5.7.3/spring-security-config-5.7.3-sources.jar!/org/springframework/security/config/annotation/web/configurers/FormLoginConfigurer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-config/5.7.3/spring-security-config-5.7.3-sources.jar!/org/springframework/security/config/annotation/web/configurers/SessionManagementConfigurer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-config/5.7.3/spring-security-config-5.7.3-sources.jar!/org/springframework/security/config/annotation/web/configurers/openid/OpenIDLoginConfigurer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-core/5.7.3/spring-security-core-5.7.3-sources.jar!/org/springframework/security/authentication/ProviderManager.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-core/5.7.3/spring-security-core-5.7.3-sources.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-core/5.7.3/spring-security-core-5.7.3-sources.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-core/5.7.3/spring-security-core-5.7.3-sources.jar!/org/springframework/security/core/authority/mapping/GrantedAuthoritiesMapper.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-core/5.7.3/spring-security-core-5.7.3-sources.jar!/org/springframework/security/core/authority/mapping/NullAuthoritiesMapper.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-core/5.7.3/spring-security-core-5.7.3-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-core/5.7.3/spring-security-core-5.7.3-sources.jar!/org/springframework/security/core/userdetails/UserDetailsPasswordService.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-core/5.7.3/spring-security-core-5.7.3-sources.jar!/org/springframework/security/core/userdetails/jdbc/JdbcDaoImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-core/5.7.3/spring-security-core-5.7.3-sources.jar!/org/springframework/security/provisioning/UserDetailsManager.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-crypto/5.7.3/spring-security-crypto-5.7.3-sources.jar!/org/springframework/security/crypto/password/PasswordEncoder.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-crypto/5.7.3/spring-security-crypto-5.7.3.jar!/org/springframework/security/crypto/password/PasswordEncoder.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/AuthenticationEntryPoint.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/FilterChainProxy.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/authentication/AuthenticationFailureHandler.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/authentication/ForwardAuthenticationFailureHandler.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/authentication/LoginUrlAuthenticationEntryPoint.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/context/HttpSessionSecurityContextRepository.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/context/SecurityContextRepository.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/csrf/CsrfFilter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/header/HeaderWriterFilter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/session/ConcurrentSessionFilter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/session/SessionManagementFilter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/spring-web/5.3.23/spring-web-5.3.23-sources.jar!/org/springframework/http/HttpStatus.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/jdk17/jdk-17.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$USER_HOME$/SoftWare/dev_software/maven/apache-maven-3.5.4" />
+        <option name="localRepository" value="$USER_HOME$/SoftWare/dev_software/maven/mavenRepository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="$USER_HOME$/SoftWare/dev_software/maven/apache-maven-3.5.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2bDHzHqK7rjdzphOY1cac2IJfqM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.site-auth-server [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.AuthApplication.executor": "Debug",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sewell/IdeaProjects/personal-site/site-common/site-common-security-starter/src/main/java/com/sewell/common/security",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "402634dcb72435e9eb47cd3dd0130dc3",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora_aws",
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security" />
+      <recent name="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler" />
+      <recent name="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/resources" />
+      <recent name="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sewell.server.auth.handler.authentication" />
+      <recent name="com.sewell.common.security.config" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager">
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="site-auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sewell.server.auth.AuthApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sewell.server.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AuthApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71037281-a683-4a9c-83f6-6415ff07bf79" name="Changes" comment="" />
+      <created>1705742993403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705742993403</updated>
+      <workItem from="1705742994649" duration="162000" />
+      <workItem from="1705743260351" duration="1525000" />
+      <workItem from="1705744818392" duration="33000" />
+      <workItem from="1705744923332" duration="1169000" />
+      <workItem from="1705746110952" duration="3304000" />
+      <workItem from="1705749475725" duration="35354000" />
+      <workItem from="1706627157689" duration="2815000" />
+      <workItem from="1711181396154" duration="861000" />
+      <workItem from="1711184667713" duration="1372000" />
+      <workItem from="1711189034441" duration="1488000" />
+      <workItem from="1711190551752" duration="205000" />
+      <workItem from="1711190773238" duration="912000" />
+      <workItem from="1711192066289" duration="3171000" />
+      <workItem from="1711195308425" duration="21585000" />
+      <workItem from="1711217349179" duration="9943000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/boot/spring-boot-autoconfigure/2.7.4/spring-boot-autoconfigure-2.7.4-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/error/ErrorMvcAutoConfiguration.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/site-auth-server/src/main/java/com/sewell/server/auth/grant/password/PasswordAuthenticationProvider.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/site-auth-server/src/main/java/com/sewell/server/auth/grant/password/PasswordAuthenticationProvider.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/FilterChainProxy.java</url>
+          <line>345</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/csrf/CsrfFilter.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-config/5.7.3/spring-security-config-5.7.3-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java</url>
+          <line>3204</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/config/SecurityAutoConfig.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
