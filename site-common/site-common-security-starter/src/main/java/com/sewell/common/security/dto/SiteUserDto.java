@@ -1,4 +1,4 @@
-package com.sewell.common.security.Dto;
+package com.sewell.common.security.dto;
 
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;

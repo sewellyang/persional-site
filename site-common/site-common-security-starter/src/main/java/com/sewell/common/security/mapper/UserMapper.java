@@ -1,7 +1,7 @@
 package com.sewell.common.security.mapper;
 
 
-import com.sewell.common.security.Dto.SiteUserDto;
+import com.sewell.common.security.dto.SiteUserDto;
 import com.sewell.common.security.domain.SiteUser;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

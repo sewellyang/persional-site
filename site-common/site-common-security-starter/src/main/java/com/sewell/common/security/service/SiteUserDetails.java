@@ -1,6 +1,6 @@
 package com.sewell.common.security.service;
 
-import com.sewell.common.security.Dto.SiteUserDto;
+import com.sewell.common.security.dto.SiteUserDto;
 import com.sewell.common.security.domain.SiteUser;
 import com.sewell.common.security.mapper.UserMapper;
 import jakarta.annotation.Resource;
