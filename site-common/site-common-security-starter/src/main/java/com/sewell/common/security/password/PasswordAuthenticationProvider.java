@@ -1,5 +1,6 @@
 package com.sewell.common.security.password;
 
+import jakarta.annotation.Resource;
 import org.springframework.context.support.MessageSourceAccessor;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -12,7 +13,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.util.Assert;
 
-import javax.annotation.Resource;
 
 /**
  * @author sewell

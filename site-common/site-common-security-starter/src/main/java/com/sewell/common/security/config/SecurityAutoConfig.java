@@ -8,12 +8,16 @@ import com.sewell.common.security.handler.SiteAuthenticationSuccessHandler;
 import com.sewell.common.security.password.PasswordAuthenticationProvider;
 import com.sewell.common.security.properties.SiteSecurityProperties;
 import com.sewell.common.security.service.SiteUserDetails;
+import jakarta.annotation.Resource;
+import jakarta.servlet.Filter;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.access.AccessDeniedHandler;
@@ -21,11 +25,10 @@ import org.springframework.security.web.authentication.AuthenticationFailureHand
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import javax.annotation.Resource;
-import javax.servlet.Filter;
 
-//@ConditionalOnProperty(name = "site.security.enable", value = "true")
+@ConditionalOnProperty(name = "site.security.enable", havingValue = "true")
 @Import(SiteSecurityProperties.class)
+//@Configuration(proxyBeanMethods = false)
 @EnableWebSecurity
 public class SecurityAutoConfig {
 
@@ -122,21 +125,20 @@ public class SecurityAutoConfig {
     ) throws Exception {
 //ceshishiyong 32434
         //后台功能，基于RBAC的权限认证
-        return http.authorizeRequests()
-                .antMatchers(siteSecurityProperties.getIgnoreUrls().toArray(new String[]{}))
-                .permitAll()
-                .anyRequest()
-                .authenticated()
-                .and()
-                .exceptionHandling()
-                .accessDeniedHandler(siteAccessDeniedExceptionHandler)
-                .authenticationEntryPoint(siteAuthenticationEntryPoint)
-                .and()
+        return http.authorizeHttpRequests(authorizeHttpRequests ->
+                        authorizeHttpRequests.requestMatchers(siteSecurityProperties.getIgnoreUrls().toArray(new String[]{}))
+                                .permitAll()
+                                .anyRequest()
+                                .authenticated()
+                )
+                .exceptionHandling((exceptionHandling) ->
+                        exceptionHandling
+                                .accessDeniedHandler(siteAccessDeniedExceptionHandler)
+                                .authenticationEntryPoint(siteAuthenticationEntryPoint)
+                )
                 .addFilterAt(siteSecurityFilter, UsernamePasswordAuthenticationFilter.class)
-//                .authenticationManager(authenticationManager)
                 .authenticationProvider(passwordAuthenticationProvider)
-                .csrf()
-                .disable()
+                .csrf(AbstractHttpConfigurer::disable)
                 .build();
     }
 

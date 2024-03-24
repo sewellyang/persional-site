@@ -4,24 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71037281-a683-4a9c-83f6-6415ff07bf79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site-auth-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site-common/site-common-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site-data/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site-data/site-server-data/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site-gateway/site-spring-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site-web/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site-web/site-user-web/pom.xml" afterDir="false" />
+    <list default="true" id="71037281-a683-4a9c-83f6-6415ff07bf79" name="Changes" comment="2332">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-auth-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site-auth-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-auth-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/site-auth-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/config/SecurityAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/config/SecurityAutoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/filter/SiteAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/filter/SiteAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAccessDeniedExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAccessDeniedExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAuthenticationFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAuthenticationFailureHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAuthenticationSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/password/PasswordAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/password/PasswordAuthenticationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/service/SiteUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/service/SiteUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-gateway/site-spring-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site-gateway/site-spring-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-gateway/site-spring-gateway/src/main/java/com/sewell/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +39,23 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev_01" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/9.0.65/tomcat-embed-core-9.0.65-sources.jar!/org/apache/catalina/core/StandardEngineValve.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/9.0.65/tomcat-embed-core-9.0.65-sources.jar!/org/apache/catalina/core/StandardHostValve.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/boot/spring-boot-autoconfigure/2.7.4/spring-boot-autoconfigure-2.7.4-sources.jar!/org/springframework/boot/autoconfigure/security/servlet/SpringBootWebSecurityConfiguration.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/cloud/spring-cloud-commons/4.1.0/spring-cloud-commons-4.1.0-sources.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/cloud/spring-cloud-gateway-server/4.1.1/spring-cloud-gateway-server-4.1.1-sources.jar!/org/springframework/cloud/gateway/filter/ReactiveLoadBalancerClientFilter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/cloud/spring-cloud-loadbalancer/4.1.0/spring-cloud-loadbalancer-4.1.0-sources.jar!/org/springframework/cloud/loadbalancer/core/DiscoveryClientServiceInstanceListSupplier.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/cloud/spring-cloud-loadbalancer/4.1.0/spring-cloud-loadbalancer-4.1.0-sources.jar!/org/springframework/cloud/loadbalancer/core/RoundRobinLoadBalancer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/cloud/spring-cloud-loadbalancer/4.1.0/spring-cloud-loadbalancer-4.1.0-sources.jar!/org/springframework/cloud/loadbalancer/core/ServiceInstanceListSupplier.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-config/5.7.3/spring-security-config-5.7.3-sources.jar!/org/springframework/security/config/annotation/AbstractConfiguredSecurityBuilder.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-config/5.7.3/spring-security-config-5.7.3-sources.jar!/org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-config/5.7.3/spring-security-config-5.7.3-sources.jar!/org/springframework/security/config/annotation/web/builders/FilterOrderRegistration.java" root0="SKIP_INSPECTION" />
@@ -83,6 +93,9 @@
     <setting file="jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/spring-web/5.3.23/spring-web-5.3.23-sources.jar!/org/springframework/http/HttpStatus.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/SoftWare/jdk17/jdk-17.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -111,6 +124,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Maven.site-auth-server [clean].executor": "Run",
+    "Maven.site-spring-gateway [clean].executor": "Run",
+    "Maven.site-spring-gateway [compile].executor": "Run",
+    "Maven.site-spring-gateway [package].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -118,6 +134,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.AuthApplication.executor": "Debug",
+    "Spring Boot.GatewayApplication.executor": "Debug",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
@@ -142,6 +159,9 @@
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security" />
@@ -160,7 +180,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.AuthApplication">
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="site-auth-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sewell.server.auth.AuthApplication" />
@@ -174,9 +194,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="site-spring-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sewell.site.gateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sewell.site.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AuthApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -210,59 +244,114 @@
       <workItem from="1711192066289" duration="3171000" />
       <workItem from="1711195308425" duration="21585000" />
       <workItem from="1711217349179" duration="9943000" />
+      <workItem from="1711267107239" duration="12859000" />
     </task>
+    <task id="LOCAL-00001" summary="2332">
+      <option name="closed" value="true" />
+      <created>1711262535526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711262535526</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2332">
+      <option name="closed" value="true" />
+      <created>1711262981074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711262981074</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2332">
+      <option name="closed" value="true" />
+      <created>1711263068966</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711263068966</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2332" />
+    <option name="LAST_COMMIT_MESSAGE" value="2332" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/boot/spring-boot-autoconfigure/2.7.4/spring-boot-autoconfigure-2.7.4-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/error/ErrorMvcAutoConfiguration.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="99" />
+          <url>file://$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/filter/SiteAuthenticationFilter.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/site-auth-server/src/main/java/com/sewell/server/auth/grant/password/PasswordAuthenticationProvider.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="100" />
+          <url>file://$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAuthenticationEntryPoint.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/site-auth-server/src/main/java/com/sewell/server/auth/grant/password/PasswordAuthenticationProvider.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="101" />
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/6.2.3/spring-security-web-6.2.3-sources.jar!/org/springframework/security/web/access/intercept/AuthorizationFilter.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.java</url>
-          <line>128</line>
-          <option name="timeStamp" value="102" />
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/6.2.3/spring-security-web-6.2.3-sources.jar!/org/springframework/security/web/access/intercept/AuthorizationFilter.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.java</url>
-          <line>121</line>
-          <option name="timeStamp" value="103" />
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/6.2.3/spring-security-web-6.2.3-sources.jar!/org/springframework/security/web/access/intercept/RequestMatcherDelegatingAuthorizationManager.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/FilterChainProxy.java</url>
-          <line>345</line>
-          <option name="timeStamp" value="104" />
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/6.2.3/spring-security-web-6.2.3-sources.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/5.7.3/spring-security-web-5.7.3-sources.jar!/org/springframework/security/web/csrf/CsrfFilter.java</url>
-          <line>102</line>
-          <option name="timeStamp" value="105" />
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/spring-webmvc/6.1.5/spring-webmvc-6.1.5-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>1064</line>
+          <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-config/5.7.3/spring-security-config-5.7.3-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java</url>
-          <line>3204</line>
-          <option name="timeStamp" value="106" />
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/spring-webmvc/6.1.5/spring-webmvc-6.1.5-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>1106</line>
+          <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/config/SecurityAutoConfig.java</url>
-          <line>119</line>
-          <option name="timeStamp" value="107" />
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19-sources.jar!/org/apache/catalina/core/StandardHostValve.java</url>
+          <line>202</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19-sources.jar!/org/apache/catalina/core/StandardHostValve.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19-sources.jar!/org/apache/tomcat/util/descriptor/web/WebXml.java</url>
+          <line>1541</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19-sources.jar!/org/apache/catalina/core/StandardHostValve.java</url>
+          <line>222</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19-sources.jar!/org/apache/catalina/core/StandardHostValve.java</url>
+          <line>324</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19-sources.jar!/org/apache/catalina/core/StandardHostValve.java</url>
+          <line>364</line>
+          <option name="timeStamp" value="138" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -3,13 +3,13 @@ package com.sewell.common.security.service;
 import com.sewell.common.security.Dto.SiteUserDto;
 import com.sewell.common.security.domain.SiteUser;
 import com.sewell.common.security.mapper.UserMapper;
+import jakarta.annotation.Resource;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 

@@ -1,17 +1,24 @@
 server:
-  port: 8080
+  port: 8087
 spring:
   datasource:
-
     password: sewell1996AabB.
     username: root
     url: jdbc:mysql://43.138.244.228:3306/site?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true
     driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+  application:
+    name: site-auth-server
 
 
 site:
   security:
     enable: true
+    ignore-urls:
+      - "/1234"
+      - "/error"
 
 security:
   ignore:

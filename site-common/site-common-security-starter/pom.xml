@@ -30,6 +30,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.32</version>
         </dependency>
         <dependency>
             <groupId>org.mapstruct</groupId>
@@ -44,11 +45,6 @@
             <scope>provided</scope> <!-- Only needed at compile time -->
         </dependency>
         <dependency>
-            <groupId>org.apache.tomcat.embed</groupId>
-            <artifactId>tomcat-embed-core</artifactId>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
             <groupId>com.sewell</groupId>
             <artifactId>site-common-core</artifactId>
             <version>1.0-SNAPSHOT</version>
@@ -57,6 +53,11 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
             <scope>provided</scope>
         </dependency>
     </dependencies>

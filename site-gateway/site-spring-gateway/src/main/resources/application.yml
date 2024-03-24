@@ -1,0 +1,20 @@
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: site-auth-server
+          uri: lb://site-auth-server
+          predicates:
+            - Path=/auth/**
+          filters:
+            - StripPrefix=1
+
+    zookeeper:
+      connect-string: localhost:2181
+  #      registration:
+#        path: /services/site-gateway
+  application:
+    name: site-gateway
+server:
+  port: 8081
