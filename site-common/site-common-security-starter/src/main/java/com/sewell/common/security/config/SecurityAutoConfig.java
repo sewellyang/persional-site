@@ -120,7 +120,7 @@ public class SecurityAutoConfig {
                                                               AuthenticationManager authenticationManager,
                                                               Filter siteSecurityFilter
     ) throws Exception {
-//ceshishiyong
+//ceshishiyong 32434
         //后台功能，基于RBAC的权限认证
         return http.authorizeRequests()
                 .antMatchers(siteSecurityProperties.getIgnoreUrls().toArray(new String[]{}))
