@@ -15,6 +15,7 @@
     <modules>
         <module>site-common-core</module>
         <module>site-common-security-starter</module>
+        <module>site-common-mybatis-plus-starter</module>
     </modules>
 
 

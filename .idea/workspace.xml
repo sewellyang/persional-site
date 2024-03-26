@@ -4,23 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71037281-a683-4a9c-83f6-6415ff07bf79" name="Changes" comment="2332">
+    <list default="true" id="71037281-a683-4a9c-83f6-6415ff07bf79" name="Changes" comment="dto更名">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site-auth-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site-auth-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site-auth-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/site-auth-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-common/site-common-core/src/main/java/com/sewell/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/config/SecurityAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/config/SecurityAutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/filter/SiteAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/filter/SiteAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAccessDeniedExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAccessDeniedExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAuthenticationEntryPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAuthenticationFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAuthenticationFailureHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/password/PasswordAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/password/PasswordAuthenticationProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/service/SiteUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/service/SiteUserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/resources/META-INF/spring.factories" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-gateway/site-spring-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site-gateway/site-spring-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site-gateway/site-spring-gateway/src/main/java/com/sewell/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/site-server-data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/site-server-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site-common/site-common-mybatis-plus-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-data/site-server-data/src/main/java/com/sewell/data/server/AutoMapperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-gateway/site-spring-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/site-gateway/site-spring-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-web/site-user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site-web/site-user-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site-web/site-user-web/src/main/java/com/sewell/web/user/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/site-web/site-user-web/src/main/java/com/sewell/web/user/SiteUserApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,53 +126,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.site-auth-server [clean].executor": "Run",
-    "Maven.site-spring-gateway [clean].executor": "Run",
-    "Maven.site-spring-gateway [compile].executor": "Run",
-    "Maven.site-spring-gateway [package].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.AuthApplication.executor": "Debug",
-    "Spring Boot.GatewayApplication.executor": "Debug",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/sewell/IdeaProjects/personal-site/site-common/site-common-security-starter/src/main/java/com/sewell/common/security",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "402634dcb72435e9eb47cd3dd0130dc3",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.JwtUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.site-auth-server [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.site-spring-gateway [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.site-spring-gateway [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.site-spring-gateway [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AuthApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.SiteUserApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sewell/IdeaProjects/personal-site/site-common/site-common-mybatis-plus-starter/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;402634dcb72435e9eb47cd3dd0130dc3&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql_aurora_aws",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora_aws&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/site-common/site-common-mybatis-plus-starter/src/main/resources" />
+      <recent name="$PROJECT_DIR$/site-web/site-user-web/src/main/java/com/sewell/web/user" />
+      <recent name="$PROJECT_DIR$/site-web/site-user-web/src/main/resources" />
       <recent name="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security" />
       <recent name="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler" />
-      <recent name="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/resources" />
-      <recent name="$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/site-web/site-user-web/src/main/resources/mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sewell.server.auth.handler.authentication" />
@@ -180,7 +192,29 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Spring Boot.AuthApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.JwtUtil">
+    <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sewell.common.security.repository.JwtUtil" />
+      <module name="site-common-security-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sewell.common.security.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="site-auth-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sewell.server.auth.AuthApplication" />
@@ -207,10 +241,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SiteUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="site-user-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sewell.web.user.SiteUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AuthApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Application.JwtUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +286,9 @@
       <workItem from="1711192066289" duration="3171000" />
       <workItem from="1711195308425" duration="21585000" />
       <workItem from="1711217349179" duration="9943000" />
-      <workItem from="1711267107239" duration="12859000" />
+      <workItem from="1711267107239" duration="17867000" />
+      <workItem from="1711378940643" duration="10111000" />
+      <workItem from="1711463115210" duration="656000" />
     </task>
     <task id="LOCAL-00001" summary="2332">
       <option name="closed" value="true" />
@@ -270,7 +314,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711263068966</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="提交">
+      <option name="closed" value="true" />
+      <created>1711289886344</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711289886345</updated>
+    </task>
+    <task id="LOCAL-00005" summary="dto更名">
+      <option name="closed" value="true" />
+      <created>1711289966988</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711289966988</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,80 +338,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2332" />
-    <option name="LAST_COMMIT_MESSAGE" value="2332" />
+    <MESSAGE value="提交" />
+    <MESSAGE value="dto更名" />
+    <option name="LAST_COMMIT_MESSAGE" value="dto更名" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/filter/SiteAuthenticationFilter.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/handler/SiteAuthenticationEntryPoint.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/6.2.3/spring-security-web-6.2.3-sources.jar!/org/springframework/security/web/access/intercept/AuthorizationFilter.java</url>
-          <line>78</line>
-          <option name="timeStamp" value="125" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/6.2.3/spring-security-web-6.2.3-sources.jar!/org/springframework/security/web/access/intercept/AuthorizationFilter.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/6.2.3/spring-security-web-6.2.3-sources.jar!/org/springframework/security/web/access/intercept/RequestMatcherDelegatingAuthorizationManager.java</url>
-          <line>86</line>
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/security/spring-security-web/6.2.3/spring-security-web-6.2.3-sources.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.java</url>
-          <line>132</line>
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/spring-webmvc/6.1.5/spring-webmvc-6.1.5-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>1064</line>
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/springframework/spring-webmvc/6.1.5/spring-webmvc-6.1.5-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>1106</line>
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19-sources.jar!/org/apache/catalina/core/StandardHostValve.java</url>
-          <line>202</line>
-          <option name="timeStamp" value="132" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19-sources.jar!/org/apache/catalina/core/StandardHostValve.java</url>
-          <line>203</line>
-          <option name="timeStamp" value="133" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19-sources.jar!/org/apache/tomcat/util/descriptor/web/WebXml.java</url>
-          <line>1541</line>
-          <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19-sources.jar!/org/apache/catalina/core/StandardHostValve.java</url>
-          <line>222</line>
-          <option name="timeStamp" value="136" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19-sources.jar!/org/apache/catalina/core/StandardHostValve.java</url>
-          <line>324</line>
-          <option name="timeStamp" value="137" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/SoftWare/dev_software/maven/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19-sources.jar!/org/apache/catalina/core/StandardHostValve.java</url>
-          <line>364</line>
-          <option name="timeStamp" value="138" />
+          <url>file://$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java/com/sewell/common/security/repository/JwtRepository.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="163" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

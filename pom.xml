@@ -11,10 +11,6 @@
         <module>site-gateway</module>
         <module>site-web</module>
         <module>site-common</module>
-        <module>site-data</module>
-        <module>site-gateway/site-spring-gateway</module>
-        <module>site-data/site-server-data</module>
-        <module>site-web/site-user-web</module>
         <module>site-auth-server</module>
     </modules>
     <version>1.0-SNAPSHOT</version>

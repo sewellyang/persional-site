@@ -1,12 +1,21 @@
-
+server:
+  port: 8081
 spring:
   cloud:
     gateway:
       routes:
         - id: site-auth-server
-          uri: lb://site-auth-server
+          uri:
+            lb://site-auth-server
           predicates:
             - Path=/auth/**
+          filters:
+            - StripPrefix=1
+        - id: site-user-server
+          uri:
+            lb://site-user-server
+          predicates:
+            - Path=/user/**
           filters:
             - StripPrefix=1
 
@@ -16,5 +25,3 @@ spring:
 #        path: /services/site-gateway
   application:
     name: site-gateway
-server:
-  port: 8081

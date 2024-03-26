@@ -7,6 +7,8 @@ import com.sewell.common.security.handler.SiteAuthenticationFailureHandler;
 import com.sewell.common.security.handler.SiteAuthenticationSuccessHandler;
 import com.sewell.common.security.password.PasswordAuthenticationProvider;
 import com.sewell.common.security.properties.SiteSecurityProperties;
+import com.sewell.common.security.repository.JwtRepository;
+import com.sewell.common.security.repository.JwtUtil;
 import com.sewell.common.security.service.SiteUserDetails;
 import jakarta.annotation.Resource;
 import jakarta.servlet.Filter;
@@ -61,11 +63,21 @@ public class SecurityAutoConfig {
         return new PasswordAuthenticationProvider();
     }
 
+    @Bean
+    public JwtRepository jwtRepository() {
+        return new JwtRepository();
+    }
+
+    @Bean
+    public JwtUtil jwtUtil() {
+        return new JwtUtil();
+    }
 
     @Bean
     public Filter siteSecurityFilter(AuthenticationSuccessHandler siteAuthenticationSuccessHandler,
                                      AuthenticationFailureHandler siteAuthenticationFailureHandler,
-                                     AuthenticationManager authenticationManager) {
+                                     AuthenticationManager authenticationManager,
+                                     JwtRepository jwtRepository) {
 
 
 //        SiteAuthenticationFilter siteAuthenticationFilter = new SiteAuthenticationFilter();
@@ -90,6 +102,8 @@ public class SecurityAutoConfig {
         siteAuthenticationFilter.setAuthenticationSuccessHandler(siteAuthenticationSuccessHandler);
         siteAuthenticationFilter.setAuthenticationFailureHandler(siteAuthenticationFailureHandler);
         siteAuthenticationFilter.setAuthenticationManager(authenticationManager);
+//        siteAuthenticationFilter.setSecurityContextRepository(new HttpSessionSecurityContextRepository());
+        siteAuthenticationFilter.setSecurityContextRepository(jwtRepository);
 //        siteAuthenticationFilter.setAuthenticationManager(new ProviderManager());
 //        AuthenticationManagerBuilder sharedObject = http.getSharedObject(AuthenticationManagerBuilder.class);
 //        sharedObject.authenticationProvider(passwordAuthenticationProvider);
@@ -121,9 +135,9 @@ public class SecurityAutoConfig {
                                                               AuthenticationEntryPoint siteAuthenticationEntryPoint,
                                                               PasswordAuthenticationProvider passwordAuthenticationProvider,
                                                               AuthenticationManager authenticationManager,
-                                                              Filter siteSecurityFilter
+                                                              Filter siteSecurityFilter,
+                                                       JwtRepository jwtRepository
     ) throws Exception {
-//ceshishiyong 32434
         //后台功能，基于RBAC的权限认证
         return http.authorizeHttpRequests(authorizeHttpRequests ->
                         authorizeHttpRequests.requestMatchers(siteSecurityProperties.getIgnoreUrls().toArray(new String[]{}))
@@ -136,6 +150,8 @@ public class SecurityAutoConfig {
                                 .accessDeniedHandler(siteAccessDeniedExceptionHandler)
                                 .authenticationEntryPoint(siteAuthenticationEntryPoint)
                 )
+                .securityContext((securityContext)->securityContext.securityContextRepository(jwtRepository))
+
                 .addFilterAt(siteSecurityFilter, UsernamePasswordAuthenticationFilter.class)
                 .authenticationProvider(passwordAuthenticationProvider)
                 .csrf(AbstractHttpConfigurer::disable)

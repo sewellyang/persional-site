@@ -9,4 +9,9 @@
     <artifactId>site-gateway</artifactId>
     <packaging>pom</packaging>
     <description>网关模块</description>
+
+    <modules>
+        <module>site-spring-gateway</module>
+    </modules>
+
 </project>

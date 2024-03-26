@@ -1,5 +1,5 @@
 server:
-  port: 8087
+  port: 8089
 spring:
   datasource:
     password: sewell1996AabB.
@@ -10,7 +10,7 @@ spring:
     zookeeper:
       connect-string: localhost:2181
   application:
-    name: site-auth-server
+    name: site-user-server
 jwt:
   header: "123434343"
   secret: "c2ppamppaWZpd2VqbGZqa3NkbGhhZmxrdWl3aWVqZm93ZWpvbw=="

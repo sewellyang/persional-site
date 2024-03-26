@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/site-auth-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/site-common/site-common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/site-common/site-common-mybatis-plus-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/site-common/site-common-mybatisplus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/site-common/site-common-pom/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/site-common/site-common-security-starter/src/main/java" charset="UTF-8" />
@@ -11,10 +12,12 @@
     <file url="file://$PROJECT_DIR$/site-data/site-server-data/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/site-data/site-server-data/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/site-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/site-data/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/site-gateway/site-spring-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/site-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/site-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/site-web/site-user-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/site-web/site-user-web/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/site-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/site-web/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
